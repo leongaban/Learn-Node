@@ -1,0 +1,27 @@
+extends layout
+
+block header
+	//- h1 YO!
+
+block content
+	h2 Sale ends in #{h.moment().endOf('day').fromNow()}
+
+block footer
+	p I love you
+
+//- html
+//- head
+//- 	meta(charset="UTF-8")
+//- 	title Learn Node
+//- body
+	
+//- div.wrapper
+//- 	- const upDog = dog.toUpperCase();
+//- 	p.hello Hello my dogs name is #{upDog}
+//- 	span#yo Yo!
+//- 	br
+//- 	img.dog(src='https://s-media-cache-ak0.pinimg.com/236x/6c/98/e3/6c98e32ef4d6908c1b11a9dcaf3ac75f.jpg' alt=`Dog ${dog}`)
+
+//- h2 
+//- 	| Hello 
+//- 	em How are you?
